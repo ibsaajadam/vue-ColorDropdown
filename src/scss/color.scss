@@ -1,0 +1,54 @@
+.color {
+  height: 100%;
+}
+.form {
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  padding-top: 50px;
+}
+.header {
+  text-align: center;
+  color: $textColor;
+}
+.input {
+  padding-left: 50px;
+}
+.button {
+  background-color: $primaryBtn;
+  color: $buttonColor;
+}
+.hints {
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+}
+.color-title {
+  color: $hintColor;
+}
+.colors li {
+  list-style-type: none;
+  margin-right: 30px;
+  color: $hintLabels;
+}
+.click {
+  font-size: 14px;
+  color: $hintHelp;
+}
+.not-found {
+  text-align: center;
+}
+.close {
+  margin-left: 40%;
+}
+
+
+// .todo {
+//   &-wrapper {
+
+//   }
+// }
+
+// .todo-wrapper {
+
+// }
